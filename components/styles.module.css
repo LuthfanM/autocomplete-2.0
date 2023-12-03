@@ -1,0 +1,30 @@
+.lists {
+    background-color: red;
+  }
+  
+  .lists-hidden {
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  /* .red{
+    background-color: blue;
+  } */
+  
+  .arrow,
+  .arrow::before {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: inherit;
+  }
+  
+  .arrow {
+    visibility: hidden;
+  }
+  
+  .arrow::before {
+    visibility: visible;
+    content: '';
+    transform: rotate(45deg);
+  }
