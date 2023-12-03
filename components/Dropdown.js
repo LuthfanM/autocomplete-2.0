@@ -69,8 +69,6 @@ const Dropdown = (Props) => {
     }
   }, [isClicked]);
 
-  console.log("clicked", settings);
-
   const onChange = (e) => {
     if (onChangeText && debouncedValue.length <= 0) onChangeText();
 
